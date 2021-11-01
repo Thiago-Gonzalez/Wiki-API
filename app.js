@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 
 
-mongoose.connect("mongodb://localhost:27017/wikiDB");
+mongoose.connect("");
 
 const articleSchema = {
   title: String,
